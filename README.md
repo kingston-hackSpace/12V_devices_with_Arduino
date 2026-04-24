@@ -27,7 +27,7 @@ See reference guide below:
 
 - Up to 500mA → 0.1 mm² (jumper wires for small electronics) (28 AWG)
 
-- Up to ~3 A → 0.5 mm² (20-22 AWG)
+- Up to ~3 A → 0.5 mm² (20-22 AWG) (thin wires available at hackSpace)
 
 - Up to ~5 A → 0.75 mm² (18 AWG)
 
