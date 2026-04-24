@@ -21,13 +21,17 @@ Although Arduino pins provide 5V signals, they can only supply about **~20 mA*
 --
 ## ⚠️ IMPORTANT! WIRE TYPE! 
 
-If your devices draws high current, you will need thicker wires. Talk about it with a technician and see reference guide below:
+If your devices draws high current, you will need thicker wires. **Talk with a technician.**
 
-- Up to ~3 A → 0.5 mm² (thin hackSpace wires)
+See reference guide below:
 
-- Up to ~5 A → 0.75 mm²
+- Up to 500mA → 0.1 mm² (jumper wires for small electronics) (28 AWG)
 
-- 5–10 A → 1.5 mm²
+- Up to ~3 A → 0.5 mm² (20-22 AWG)
+
+- Up to ~5 A → 0.75 mm² (18 AWG)
+
+- 5–10 A → 1.5 mm² (15–16 AWG)
 
 
 Read more [about wires](https://github.com/kingston-hackSpace/About_wires) here. 
