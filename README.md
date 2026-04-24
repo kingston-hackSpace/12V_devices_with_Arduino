@@ -33,39 +33,42 @@ See reference guide below:
 
 - 5–10 A → 1.5 mm² (15–16 AWG)
 
-
 Read more [about wires](https://github.com/kingston-hackSpace/About_wires) here. 
 
 --
-## HARDWARE
+## HARDWARE REQUIRED
 
-- Power Supply (voltage and current will depend on the requiremnts of your actuator)
+- Power Supply (voltage and current depend on the requirements of your actuator)
 
 - Arduino board
 
-- IRLZ44N MOSFET (channels high current/voltage from the power supply by following control signals from Arduino)
+- IRLZ44N MOSFET (used to switch high current/voltage from the power supply using a low‑power control signal from the Arduino)
 
-- Diode 1N4007 or 1N4001 (use to )
+- Diode 1N4007 or 1N4001 (protects the circuit from voltage spikes generated)
 
-- 220ohms resistor (protects Arduino signal pin)
+- 220ohms resistor (Limits current to protect the Arduino signal pin)
 
-- 1K resistor (grounds Gate to reduce electrical noise)
+- 1K resistor (grounds MOSFET's Gate to reduce electrical noise)
 
 ---
-## ELECTRONIC DIAGRAM
+## DIAGRAM
 
-⚠️ IMPORTANT NOTE! MOSFET pins have specific functions. See this image to see their order and function.
+⚠️ IMPORTANT NOTE! MOSFET pins are not interchangeable. Follow [this MOSFET diagram BEFORE WIRING](link pending). <<<<<<<<<
 
-See diagram here.
+See [diagram here]-pending. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ---
 ## ABOUT THE IRLZ44N MOSFET
 
-This is the main component that allow us to channel our 12V from the power supply to the 12V actuator via a Arduino signal (5V).
+The IRLZ44N MOSFET is the main component that allows us to control a 12 V actuator using a 5 V signal from an Arduino.
 
-It can be used as an on/off swtich or control PWM signals (for LED brightness of motor speed control). 
+The IRLZ44N can be used:
 
-⚠️ The IRLZ44NN MOSFET as safetly handle up to 5A (gets wamr), or 10A if using a heatsink. 
+- As an on/off switch
+
+- With PWM signals, for example to control motor speed or LED brightness
+
+⚠️ At 5 A the IRLZ44N will get warm. For higher currents (up to 10 A), you must use a heatsink and allow air flow.
 
 
 
