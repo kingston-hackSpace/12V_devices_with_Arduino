@@ -1,26 +1,36 @@
 # Controlling 5-12V devices with Arduino
 
-This guide describes how to build the electronic circuit to use/trigger/control 12V devices (motors, fans, pumps, LED strips) with Arduino boards.
+This guide explains how to safely control **5–12V devices** such as motors, fans, pumps, and LED strips using an Arduino board.
 
-ALTERNATIVE TRANSISTOR TIP120 (old school electronic component)
+This tutorial uses an **IRLZ44N logic-level MOSFET**, which is the ideal component for this application.  An **old-school alternative** is using a **TIP120 transistor** instead of a MOSFET but is less efficient. See the TIP120 tutorial [here]-pending
+
 
 -----
 ### Why it matters
 
-- 12V DEVICE
+- USING 12V DEVICES 
 
-Arduino pins can provide up to 5V into actuators. You can still use Arduino to control a 12V device, but it will require additional electronic components and a 12V power supply that will manage building a safe powering circuit. 
+Arduino pins can provide up to 5V signals, which is not enough to power a 12V device. However, you can still use Arduino to control a 12V device by using additional electronic components and a 12V power supply. More info below. 
 
-- 5V HIGH CURRENT DEVICE
+- ⚠️ USING 5V / HIGH CURRENT DEVICES 
 
-This also applies if your actuator is 5V but high current. Arduino pins can provide ~20mA (for example, a 5V LED strip of many leds). Despite being 5V, the high current will cause overheat and can cause a fire, melting the wires and eventurallu creating a electrical hazard (electroshock or short circuiting the wiring). This is extremely dangerous.  
+Although Arduino pins provide 5V signals, they can only supply about **~20 mA**. Many 5V devices require much more current. Connecting them directly to an Arduino pin can overheat the board or wiring and create serious electrical hazards. Always use an external power supply and proper switching components for high‑current loads.
 
-*NOTE: Arduino **VIN pin** stands for "Voltage-IN", supporting up to 12V. However, this is not an output pin, it works only as an alteranative board powering pin.* 
+*NOTE: Arduino **VIN pin** stands for "Voltage-IN", supporting up to 12V. However, this is not an output pin, it works only as an input alteranative board powering pin.* 
 
 --
-## IMPORTANT! WIRE TYPE!
+## ⚠️ IMPORTANT! WIRE TYPE! 
 
-- PENDING /////////////////////////////////////
+If your devices draws high current, you will need thicker wires. Talk about it with a technician and see reference guide below:
+
+- Up to ~3 A → 0.5 mm² (thin hackSpace wires)
+
+- Up to ~5 A → 0.75 mm²
+
+- 5–10 A → 1.5 mm²
+
+
+Read more [about wires](https://github.com/kingston-hackSpace/About_wires) here. 
 
 --
 ## HARDWARE
@@ -40,18 +50,18 @@ This also applies if your actuator is 5V but high current. Arduino pins can prov
 ---
 ## ELECTRONIC DIAGRAM
 
-IMPORTANT NOTE! MOSFET pins have specific functions. See this image to see their order and function.
+⚠️ IMPORTANT NOTE! MOSFET pins have specific functions. See this image to see their order and function.
 
 See diagram here.
 
 ---
-## ABOUT IRLZ44NN MOSFET
+## ABOUT THE IRLZ44N MOSFET
 
 This is the main component that allow us to channel our 12V from the power supply to the 12V actuator via a Arduino signal (5V).
 
-It can be used as an on/off swtich or for PWM signals. 
+It can be used as an on/off swtich or control PWM signals (for LED brightness of motor speed control). 
 
-The IRLZ44NN MOSFET as safetly handle up to 5A (gets wamr), or 10A if using a heatsink. 
+⚠️ The IRLZ44NN MOSFET as safetly handle up to 5A (gets wamr), or 10A if using a heatsink. 
 
 
 
