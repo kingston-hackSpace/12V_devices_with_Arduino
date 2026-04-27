@@ -40,15 +40,15 @@ Read more [about wires](https://github.com/kingston-hackSpace/About_wires) here.
 
 Develop your project using the following equipment:
 
-- Power Supply (voltage and current depend on the requirements of your actuator)
+- Power Supply
 
 - Arduino board
 
-- IRLZ44N MOSFET (used to switch high current/voltage from the power supply using a low‑power control signal from the Arduino)
+- IRLZ44N MOSFET (used to switch high current/voltage from the power supply using a control signal from the Arduino)
 
-- Diode 1N4007 or 1N4001 (protects the circuit from voltage spikes generated)
+- Diode 1N4007 or 1N4001 (protects the circuit from voltage spikes)
 
-- 220ohms resistor (Limits current to protect the Arduino signal pin)
+- 220ohms resistor (protects the Arduino signal pin)
 
 - 1K resistor (grounds MOSFET's Gate to reduce electrical noise)
 
@@ -57,7 +57,7 @@ Develop your project using the following equipment:
 
 ⚠️ IMPORTANT NOTE! MOSFET pins are not interchangeable. Follow [this MOSFET diagram BEFORE WIRING](https://github.com/kingston-hackSpace/12V_devices_with_Arduino/blob/main/IRLZ44N.png)
 
-See [diagram here]-pending. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+See [diagram here]
 
 ---
 ## ABOUT THE IRLZ44N MOSFET
