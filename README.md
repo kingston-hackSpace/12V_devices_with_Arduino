@@ -57,7 +57,7 @@ Develop your project using the following equipment:
 
 ⚠️ IMPORTANT NOTE! MOSFET pins are not interchangeable. Follow [this MOSFET diagram BEFORE WIRING](https://github.com/kingston-hackSpace/12V_devices_with_Arduino/blob/main/IRLZ44N.png)
 
-See [diagram here]
+See [diagram here](https://github.com/kingston-hackSpace/12V_devices_with_Arduino/blob/main/12V_device_bb.jpg)
 
 ---
 ## ABOUT THE IRLZ44N MOSFET
