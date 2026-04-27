@@ -36,7 +36,9 @@ See reference below:
 Read more [about wires](https://github.com/kingston-hackSpace/About_wires) here. 
 
 ---
-## HARDWARE REQUIRED
+## HARDWARE
+
+Develop your project using the following equipment:
 
 - Power Supply (voltage and current depend on the requirements of your actuator)
 
