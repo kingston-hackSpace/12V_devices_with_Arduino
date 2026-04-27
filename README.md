@@ -14,7 +14,7 @@ Arduino pins can provide up to 5V signals, which is not enough to ***power*** a 
 
 - ⚠️ USING 5V / HIGH CURRENT DEVICES 
 
-Although Arduino pins provide 5V signals, they can only supply about **~20 mA**. Many 5V devices require much more current. Connecting them directly to an Arduino pin can overheat the board or wiring and create serious electrical hazards. Always use an external power supply and proper switching components for high‑current loads.
+Although Arduino pins provide 5V signals, they can only supply about **~20 mA**. Many 5V devices require much more current (such as motors and LED strips). Connecting them directly to an Arduino pin can overheat the board or wiring and create serious electrical hazards. Always use an external power supply and proper switching components for high‑current loads.
 
 *NOTE: Arduino **VIN pin** stands for "Voltage-IN", supporting up to 12V. However, this is not an output pin, it works only as an input alteranative board powering pin.* 
 
