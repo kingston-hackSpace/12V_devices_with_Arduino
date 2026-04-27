@@ -10,7 +10,7 @@ This tutorial uses an **IRLZ44N logic-level MOSFET**, which is the ideal compone
 
 - USING 12V DEVICES 
 
-Arduino pins can provide up to 5V signals, which is not enough to power a 12V device. However, you can still use Arduino to control a 12V device by using additional electronic components and a 12V power supply. More info below. 
+Arduino pins can provide up to 5V signals, which is not enough to *power* a 12V device. However, you can still use Arduino to *control* a 12V device by using additional electronic components and a 12V power supply. More info below. 
 
 - ⚠️ USING 5V / HIGH CURRENT DEVICES 
 
