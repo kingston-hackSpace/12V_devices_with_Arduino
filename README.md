@@ -62,6 +62,13 @@ Follow [this MOSFET diagram BEFORE WIRING](https://github.com/kingston-hackSpace
 See [wiring diagram here](https://github.com/kingston-hackSpace/12V_devices_with_Arduino/blob/main/12V_device_bb.jpg)
 
 ---
+### SAFETY NOTE
+
+⚠️ At 5A, the IRLZ44N will get warm. 
+
+For higher currents (up to 10 A), **you must use a heatsink and allow air flow**.
+
+---
 ## ABOUT THE IRLZ44N MOSFET
 
 The IRLZ44N MOSFET is the main component that allows us to control a 12 V actuator using a 5 V signal from an Arduino.
@@ -71,8 +78,6 @@ The IRLZ44N can be used:
 - As an on/off switch
 
 - With PWM signals, for example to control motor speed or LED brightness
-
-⚠️ At 5 A the IRLZ44N will get warm. For higher currents (up to 10 A), you must use a heatsink and allow air flow.
 
 
 
