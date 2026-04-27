@@ -21,7 +21,7 @@ Although Arduino pins provide 5V signals, they can only supply about **~20 mA*
 ---
 ## ⚠️ IMPORTANT! WIRE TYPE! 
 
-If your devices draws high current, you will need thicker wires. **Talk with a technician.**
+If your devices draws high current, you will need thicker wires. **Talk with a technician for more guidance.**
 
 See reference guide below:
 
