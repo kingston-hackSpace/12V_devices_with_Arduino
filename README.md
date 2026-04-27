@@ -59,7 +59,7 @@ Develop your project using the following equipment:
 
 Follow [this MOSFET diagram BEFORE WIRING](https://github.com/kingston-hackSpace/12V_devices_with_Arduino/blob/main/IRLZ44N.png)
 
-See [diagram here](https://github.com/kingston-hackSpace/12V_devices_with_Arduino/blob/main/12V_device_bb.jpg)
+See [wiring diagram here](https://github.com/kingston-hackSpace/12V_devices_with_Arduino/blob/main/12V_device_bb.jpg)
 
 ---
 ## ABOUT THE IRLZ44N MOSFET
