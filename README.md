@@ -2,7 +2,7 @@
 
 This guide explains how to safely control **5–12V devices** such as motors, fans, pumps, and LED strips using an Arduino board.
 
-This tutorial uses an **IRLZ44N logic-level MOSFET**, which is the ideal component for this application.  An **old-school alternative** is using a **TIP120 transistor** instead of a MOSFET but is less efficient. See the [TIP120 tutorial here](https://github.com/kingston-hackSpace/12V_devices_with_Arduino/blob/main/TIP120.md)
+This tutorial uses an **IRLZ44N logic-level MOSFET**.
 
 
 -----
@@ -78,6 +78,11 @@ The IRLZ44N can be used:
 - As an on/off switch
 
 - With PWM signals, for example to control motor speed or LED brightness
+
+---
+## BONUS : TIP120 TRANSISTOR
+
+An **old-school alternative** is using a **TIP120 transistor** instead of a MOSFET but is less efficient. See the [TIP120 tutorial here](https://github.com/kingston-hackSpace/12V_devices_with_Arduino/blob/main/TIP120.md)
 
 
 
