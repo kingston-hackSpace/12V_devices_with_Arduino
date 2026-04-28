@@ -38,7 +38,7 @@ Read more [about wires](https://github.com/kingston-hackSpace/About_wires) here.
 ---
 ## HARDWARE
 
-Develop your project using the following equipment:
+You will need:
 
 - Power Supply
 
